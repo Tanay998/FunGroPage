@@ -41,7 +41,7 @@ const Home = () => {
           <Col md={4} key={index}>
             <Card className="h-100 shadow">
               <Card.Body className="text-center p-4">
-                <div className="bg-light rounded-circle d-flex align-items-center justify-content-center mx-auto mb-4" style={{width: '100px', height: '100px'}}>
+                <div className="bg-light rounded-circle d-flex align-items-center justify-content-center mx-auto mb-4"  style={{ width: '100px', height: '100px' }}>
                   <span className="text-primary fs-1 fw-bold">{index + 1}</span>
                 </div>
                 <Card.Title className="fw-bold">{item.title}</Card.Title>
