@@ -1,13 +1,72 @@
-<!doctype html>
+<!-- public/index.html -->
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!-- Primary Meta Tags -->
+    <title>TeenPath - Empowering Teens with Opportunities</title>
+    <meta name="title" content="TeenPath - Empowering Teens with Opportunities">
+    <meta name="description" content="Discover internships, workshops, and competitions for teens to build skills and unlock their potential.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://teenpath.example.com/">
+    <meta property="og:title" content="TeenPath - Empowering Teens with Opportunities">
+    <meta property="og:description" content="Discover internships, workshops, and competitions for teens to build skills and unlock their potential.">
+    <meta property="og:image" content="https://teenpath.example.com/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://teenpath.example.com/">
+    <meta property="twitter:title" content="TeenPath - Empowering Teens with Opportunities">
+    <meta property="twitter:description" content="Discover internships, workshops, and competitions for teens to build skills and unlock their potential.">
+    <meta property="twitter:image" content="https://teenpath.example.com/twitter-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    
+    <!-- Bootstrap Icons -->
+    <link 
+      rel="stylesheet" 
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    
+    <!-- Preconnect to improve performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://teenpath.example.com" />
+    
+    <!-- Robots.txt instructions -->
+    <meta name="robots" content="index, follow">
+    
+    <title>TeenPath</title>
   </head>
   <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "TeenPath",
+        "url": "https://teenpath.example.com",
+        "logo": "https://teenpath.example.com/logo.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+1-234-567-8910",
+          "contactType": "Customer service"
+        }
+      }
+    </script>
   </body>
 </html>
