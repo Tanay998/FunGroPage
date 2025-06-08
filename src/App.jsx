@@ -6,7 +6,6 @@ import Opportunities from './pages/Opportunities';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap-icons/font/bootstrap-icons.css'; // Add this
 import './App.css';
 
 function App() {
