@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+/* App.css */
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+/* Add any additional custom styles here */
